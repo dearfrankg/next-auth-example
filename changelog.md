@@ -61,59 +61,70 @@ LOGS
 
 ## SECOND CRACK
 
-| change                                                   | note      |
-| -------------------------------------------------------- | --------- |
-| Setup dev environment - the right way                    |           |
-| -------------------------------------------------        | --------- |
-|                                                          |           |
-| **Step1 get app working locally**                        | done:     |
-| [github-apps] configure next-auth-local                  | √ 2 min   |
-| fix security issue                                       | √ 2 min   |
-| build and test app locally                               | √ 2 min   |
-| add changelog                                            | √ 2 min   |
-| commit and push to github                                | √ 5 min   |
-|                                                          |           |
-| **Step2 deploy to prod**                                 | done:     |
-| deploy to vercel to get the domain                       | √ 10 min  |
-| URL: next-auth-example-ashen.vercel.app                  |           |
-| [github-apps] configure Oauth next-auth-dev              | √ 2 min   |
-| update vercel env var:                                   | √ 5 min   |
-| GITHUB_ID: c6a9c393e98f4144f863                          |           |
-| GITHUB_SECRET: 3989e54e126a861fa51b798a1d6e2edd4cf7d0a8  |           |
-| NEXTAUTH_URL: https://next-auth-example-ashen.vercel.app |           |
-| Redeploy to have env vars kick in                        | √ 2 min   |
-| https support built in                                   |           |
-| Any non prod git branches are dev branches               |           |
-|                                                          |           |
-| **Step3 deploy to vercel dev env**                       |           |
-|                                                          |           |
-| **Step4 deploy to vercel prod env**                      |           |
-|                                                          |           |
-|                                                          |           |
-|                                                          |           |
-|                                                          |           |
-|                                                          |           |
-|                                                          |           |
-|                                                          |           |
-|                                                          |           |
-|                                                          |           |
-| **Phase4 google Oauth**                                  | wip:      |
-| Found docs re: google setup                              |           |
-|                                                          |           |
-|                                                          |           |
-| **Phase5 Apple Oauth**                                   |           |
-|                                                          |           |
-|                                                          |           |
-| **Phase6 email login with DB**                           |           |
-|                                                          |           |
-| ------------------------------------------------         | --------  |
-| Setup prod environment                                   |           |
-| ------------------------------------------------         | --------  |
-|                                                          |           |
-|                                                          |           |
-|                                                          |           |
-|                                                          |           |
-|                                                          |           |
+| change                                                                | note      |
+| --------------------------------------------------------------------- | --------- |
+| Setup dev environment - the right way                                 |           |
+| --------------------------------------------------------------------- | --------- |
+|                                                                       |           |
+| **Step1 get app working locally**                                     | done:     |
+| [github-apps] configure next-auth-local                               | √ 2 min   |
+| fix security issue                                                    | √ 2 min   |
+| build and test app locally                                            | √ 2 min   |
+| add changelog                                                         | √ 2 min   |
+| commit and push to github                                             | √ 5 min   |
+|                                                                       |           |
+| **Step2 deploy to prod**                                              | done:     |
+| deploy to vercel to get the domain                                    | √ 10 min  |
+| URL: next-auth-example-ashen.vercel.app                               |           |
+| [github-apps] configure Oauth next-auth-prod                          | √ 2 min   |
+| update vercel prod env:                                               | √ 5 min   |
+| GITHUB_ID: c6a9c393e98f4144f863                                       |           |
+| GITHUB_SECRET: 3989e54e126a861fa51b798a1d6e2edd4cf7d0a8               |           |
+| NEXTAUTH_URL: https://next-auth-example-ashen.vercel.app              |           |
+| Redeploy to have env vars kick in                                     | √ 2 min   |
+| https support built in                                                |           |
+| Any non prod git branches are dev branches                            |           |
+|                                                                       |           |
+| **Step3 deploy to dev**                                               | done:     |
+| deploy to vercel to get the domain                                    | √ 2 min   |
+| https://next-auth-example-git-dev-dearfrankg.vercel.app/              |           |
+| [github-apps] configure Oauth next-auth-dev                           | √ 2 min   |
+| update vercel dev env:                                                | √ 5 min   |
+| GITHUB_ID: 059e7882fa64587164aa                                       |           |
+| GITHUB_SECRET: 7271b941b0492ce48ef64faded7bd2fd90a66036               |           |
+| NEXTAUTH_URL: https://next-auth-example-git-dev-dearfrankg.vercel.app |           |
+| Redeploy to have env vars kick in                                     | √ 2 min   |
+|                                                                       |           |
+|                                                                       |           |
+| **Step4 cleanup login page**                                          | wip:      |
+|                                                                       |           |
+|                                                                       |           |
+|                                                                       |           |
+|                                                                       |           |
+| **Phase4 google Oauth**                                               | wip:      |
+| Found docs re: google setup                                           |           |
+|                                                                       |           |
+|                                                                       |           |
+|                                                                       |           |
+|                                                                       |           |
+|                                                                       |           |
+|                                                                       |           |
+|                                                                       |           |
+|                                                                       |           |
+|                                                                       |           |
+| **Phase5 Apple Oauth**                                                |           |
+|                                                                       |           |
+|                                                                       |           |
+| **Phase6 email login with DB**                                        |           |
+|                                                                       |           |
+| ------------------------------------------------                      | --------  |
+| Setup prod environment                                                |           |
+| ------------------------------------------------                      | --------  |
+|                                                                       |           |
+|                                                                       |           |
+|                                                                       |           |
+|                                                                       |           |
+|                                                                       |           |
 
 ## LETS ENCRYPT DATA
 
