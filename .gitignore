@@ -106,7 +106,6 @@ dist
 .vercel
 .now
 .env.local
+.env-data
 
 .DS_Store
-
-changelog.md
