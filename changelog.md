@@ -14,7 +14,7 @@ SCENARIO
 - pass info to other system via http POST
 - email login - POST username / password
 
-## FIRST GO AT IT
+## FIRST GO AT IT - 8 hour learning experience
 
 First go at it was a learning experience.
 
